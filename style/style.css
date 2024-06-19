@@ -15,19 +15,22 @@
 body {
   margin: 0;
   font-family: "Roboto", sans-serif;
-  font-size: 1.3125rem;
+  text-align: center;
   color: #222c2a;
 }
 
 section {
   padding: 4em 0;
-  text-align: center;
 }
 
 a {
   text-decoration: none;
-  color: #b08968;
+  color: #824936;
   font-weight: 700;
+}
+
+img {
+  max-width: 100%;
 }
 
 h1,
@@ -53,20 +56,27 @@ h4 {
 .section-one p {
   font-size: 1.125rem;
   text-transform: uppercase;
-  letter-spacing: 5px;
+  letter-spacing: 7px;
 }
 
 .intro__Title {
   font-size: 3rem;
+  margin: 0;
+  font-family: "Playfair Display", sans-serif;
 }
 
 .content__Title {
-  font-family: "Playfair Display Black", sans-serif;
+  font-family: "Playfair Display", sans-serif;
+  font-size: 2.25rem;
   color: #f3eed9;
   margin-top: 1rem;
 }
 
-.content__Title_dark {
+.content_Text {
+  font-size: 1.3125rem;
+}
+
+.title_Dark {
   color: #824936;
   margin-bottom: 1rem;
 }
@@ -79,14 +89,31 @@ h4 {
 .section-four {
   background: #824936;
   margin-bottom: 1rem;
+  color: white;
 }
 
 .signature {
   text-align: center;
-  font-size: 0.8125em;
+  font-size: 1.0625rem;
 }
 
 @media (min-width: 800px) {
+  body {
+    text-align: left;
+  }
+
+  img {
+    width: 100%;
+  }
+
+  .title_Dark {
+    text-align: center;
+  }
+
+  .section-one p {
+    text-align: center;
+  }
+
   .row {
     display: flex;
   }
