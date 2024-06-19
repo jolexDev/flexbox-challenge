@@ -18,3 +18,88 @@ body {
   font-size: 1.3125rem;
   color: #222c2a;
 }
+
+section {
+  padding: 4em 0;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: #b08968;
+  font-weight: 700;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  margin: 0;
+}
+
+.container {
+  width: 85%;
+  margin: 0 auto;
+  max-width: 1128px;
+}
+
+.section-one {
+  background: #f3eed9;
+  min-height: 31.25em;
+  display: flex;
+  align-items: center;
+}
+
+.section-one p {
+  font-size: 1.125rem;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+}
+
+.intro__Title {
+  font-size: 3rem;
+}
+
+.content__Title {
+  font-family: "Playfair Display Black", sans-serif;
+  color: #f3eed9;
+  margin-top: 1rem;
+}
+
+.content__Title_dark {
+  color: #824936;
+  margin-bottom: 1rem;
+}
+
+.section-three {
+  background: #222c2a;
+  color: white;
+}
+
+.section-four {
+  background: #824936;
+  margin-bottom: 1rem;
+}
+
+.signature {
+  text-align: center;
+  font-size: 0.8125em;
+}
+
+@media (min-width: 800px) {
+  .row {
+    display: flex;
+  }
+
+  .col {
+    width: 100%;
+  }
+
+  .col + .col {
+    margin-left: 5em;
+  }
+
+  .intro__Title {
+    font-size: 3.5rem;
+  }
+}
